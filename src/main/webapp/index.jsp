@@ -1,14 +1,14 @@
 <html>
 <head>
-<title>Welcome to Netflix!</title>
+<title>shortnote_soumya</title>
 </head>
 <body>
-	<h1>Please select the following categories!</h1>
-	<h2>1.Drama</h2>
-	<h2>2.Vengful</h2>
-	<h2>3.Horror</h2>
-	<h2>4.Anime</h2>
-	<h2>5.Comedy</h2>
+	<h1>Myself Soumya S Bhosale</h1>
+	<h2>I am here to Learn Devops </h2>
+	<h2>i am from Karnataka</h2>
+	<h2>hope everyone are doing good</h2>
+	<h2>my hobbies are reading books & watch TV </h2>
+	<h2>Best Reagds, Soumya</h2>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
