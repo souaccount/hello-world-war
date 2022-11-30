@@ -3,7 +3,7 @@
 <title>Warning</title>
 </head>
 <body>
-	<h1>Hello all </h1>
+	<h1>students </h1>
 	<h2>we are here to learn devops </h2>
 	<h2>practice well</h2>
 	<h2>hope everyone are practicing</h2>
