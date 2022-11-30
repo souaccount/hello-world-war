@@ -1,14 +1,14 @@
 <html>
 <head>
-<title>shortnote_soumya</title>
+<title>Warning</title>
 </head>
 <body>
-	<h1>Myself Soumya S Bhosale</h1>
-	<h2>I am here to Learn Devops </h2>
-	<h2>i am from Karnataka</h2>
-	<h2>hope everyone are doing good</h2>
-	<h2>my hobbies are reading books & watch TV </h2>
-	<h2>Best Reagds, Soumya</h2>
+	<h1>Hello all good evening</h1>
+	<h2>we are here to learn devops </h2>
+	<h2>practice well</h2>
+	<h2>hope everyone are practicing</h2>
+	<h2>otherwise you will be removed </h2>
+	<h2>amount will be refunded</h2>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
