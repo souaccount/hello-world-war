@@ -4,7 +4,7 @@ pipeline {
             stage ("tomcat buid") {
                 steps {
                     sh 'mvn package'
-					sh 'ls'
+		    sh 'ls'
                     echo "your package is built"
                 }
             }
@@ -19,5 +19,5 @@ pipeline {
                 }
             }
         }
-    }
+    
 }
