@@ -1,5 +1,5 @@
 pipeline {
-    agnet {lablel "slave_server1"}
+    agent {lablel "slave_server1"}
         stages {
             stage ("tomcat buid") {
                 steps {
