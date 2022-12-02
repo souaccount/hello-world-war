@@ -25,5 +25,11 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+                               <repository>
+                                           <id>central</id>
+                                           <name>a0typ0ns0y6p7-artifactory-primary-0-releases</name>
+                                           <url>https://sbjfrog.jfrog.io/artifactory/libs-release-local</url>
+                              </repository>
+      </distributionManagement>
 </project>
