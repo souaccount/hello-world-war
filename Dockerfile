@@ -1,9 +1,11 @@
-FROM maven:3.8.2-openjdk-8 as mavenbuilder
-ARG TEST=/var/lib/
-WORKDIR ${TEST}
+FROM maven:3.8.2-openjdk-8 as build_stage
+ARG BUILD_VERSION=1.0.5
+ENV BUILD_VERSION=${BUILD_VERSION}
+WORKDIR /akshay
 COPY . .
 RUN mvn clean package
 
-FROM tomcat:jre8-temurin-focal
-ARG TEST=/var/lib
-COPY --from=mavenbuilder ${TEST}/target/hello-world-war-1.0.0.war /usr/local/tomcat/webapps/
+FROM tomcat:9.0
+ARG BUILD_VERSION=1.0.5
+ENV BUILD_VERSION=${BUILD_VERSION}
+COPY --from=build_stage /akshay/target/hello-world-war-${BUILD_VERSION}.war /usr/local/tomcat/webapps/
